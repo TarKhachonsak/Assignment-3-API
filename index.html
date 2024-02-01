@@ -9,19 +9,15 @@
     table,
     th,
     td {
-        border: 1px solid;
+        border: 1px solid black;
     }
 </style>
 
 <body onload="getData()">
-    <table style="width: 100%" id="Table">
+    <table id="tableData" style="width: 100%" id="Table">
         <tr style="background-color: lightblue;">
-            <th>Product Name</th>
-            <th>Product Detail</th>         
-        </tr>
-        <tr>
-            <td>asd</td>
-            <td>as</td>
+            <th id="proName">Product Name</th>
+            <th id="proDetail">Product Detail</th>         
         </tr>
     </table>
     <script src="API.js"></script>
